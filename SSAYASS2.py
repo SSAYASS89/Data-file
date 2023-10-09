@@ -114,7 +114,7 @@ install xformers==0.0.20 triton==2.0.0 -U
 uninstall -y torch
 uninstall -y torchvision
 uninstall -y torchaudio
-install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu102
 apt -y update -qq
 apt -y install -qq aria2 libcairo2-dev pkg-config python3-dev
 apt-get update
